@@ -1238,9 +1238,6 @@ export default function App() {
           {mounted && <ClientsSection progress={p} />}
           <FinalCTA progress={p} />
 
-          <div className="absolute bottom-8 left-8 z-40 hidden items-center gap-3 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-xs text-white/42 backdrop-blur-xl md:flex">
-            <VolumeX size={15} /> Preview sound off
-          </div>
         </section>
       </main>
     </>
